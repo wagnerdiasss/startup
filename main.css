@@ -1,0 +1,50 @@
+body{
+background-image: url(fundo.jpg);
+background-size: cover;
+}
+
+img{
+    width:50px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+    object-fit: contain;
+}
+.link{
+    display: inline-block;
+    transition: .3s ease;
+}
+.link:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+#relogio{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    color: #fff;
+}
+.hora{
+    font-size:60px;
+    padding: 0;
+    text-align: center;
+    font-weight: 800;
+}
+.dia{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+h2{
+    color: rgb(255, 254, 254);
+}
